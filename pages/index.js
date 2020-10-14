@@ -11,9 +11,6 @@ export default function Home({allPostsData}) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <h1 className="title">
-        Read <Link href="/posts/first-post"><a>this page!</a></Link>
-      </h1>
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
         <p>
